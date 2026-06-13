@@ -9,13 +9,13 @@ body {
 
 header {
     text-align: center;
-    padding: 30px;
+    padding: 60px 30px 40px 30px;
 }
 
 h1 {
     color: #d4af37;
-    font-size: 3rem;
-    margin-bottom: 10px;
+    font-size: 4rem;
+    margin-bottom: 15px;
 }
 
 h2 {
@@ -47,11 +47,12 @@ h2 {
 }
 
 .button:hover {
-    opacity: 0.85;
+    opacity: 0.9;
+    transform: scale(1.05);
 }
 
-a {
-    color: #d4af37;
+.button {
+    transition: all 0.3s ease;
 }
 
 ul {
@@ -74,8 +75,9 @@ nav a {
     color: #d4af37;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: white;
 }
