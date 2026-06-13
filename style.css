@@ -60,17 +60,32 @@ ul {
     line-height: 2;
 }
 
-nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    padding: 15px;
-    margin-bottom: 30px;
+<nav>
+    <a href="index.html">Home</a>
+    <a href="introduction.html">Introduction</a>
+    <a href="character-creation.html">Character Creation</a>
+    <a href="races.html">Races</a>
+    <a href="classes.html">Classes</a>
+    <a href="backgrounds.html">Backgrounds</a>
 
-    background-color: #1b1b1b;
-    border: 1px solid #333;
-    border-radius: 10px;
+    <a href="equipment.html">Equipment</a>
+    <a href="customization.html">Customization</a>
+    <a href="adventuring.html">Adventuring</a>
+    <a href="spellcasting.html">Spellcasting</a>
+    <a href="spells.html">Spells</a>
+    <a href="conditions.html">Conditions</a>
+</nav>
+
+nav a {
+    color: #d4af37;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    white-space: nowrap;
+}
+
+nav a:hover {
+    color: white;
 }
 
 nav a {
