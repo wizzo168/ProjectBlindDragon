@@ -57,3 +57,25 @@ a {
 ul {
     line-height: 2;
 }
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px;
+    margin-bottom: 30px;
+
+    background-color: #1b1b1b;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+
+nav a {
+    color: #d4af37;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
