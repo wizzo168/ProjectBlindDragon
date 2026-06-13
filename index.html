@@ -65,17 +65,53 @@
     <section class="card update-card">
         <h2>Latest Update</h2>
 
-        <p class="update-time">
-            Last Updated: June 13, 2026 at 6:15 PM CDT
+        <p class="update-time" id="last-updated">
+            Loading latest update...
         </p>
 
-        <p>
-            Added website navigation, homepage redesign,
-            and connected projectblinddragon.com.
+        <p id="commit-message">
+            Fetching commit information...
         </p>
     </section>
 
 </main>
+
+<script>
+async function loadLatestCommit() {
+    try {
+        const response = await fetch(
+            "https://api.github.com/repos/wizzo168/ProjectBlindDragon/commits/main"
+        );
+
+        const data = await response.json();
+
+        const commitDate = new Date(
+            data.commit.committer.date
+        );
+
+        const formattedDate =
+            commitDate.toLocaleString();
+
+        document.getElementById("last-updated")
+            .textContent =
+            "Last Updated: " + formattedDate;
+
+        document.getElementById("commit-message")
+            .textContent =
+            data.commit.message;
+
+    } catch (error) {
+
+        document.getElementById("last-updated")
+            .textContent =
+            "Unable to retrieve update information.";
+
+        console.error(error);
+    }
+}
+
+loadLatestCommit();
+</script>
 
 </body>
 </html>
