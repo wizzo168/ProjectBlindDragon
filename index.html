@@ -75,9 +75,6 @@
             Loading latest update...
         </p>
 
-        <p id="commit-message">
-            Fetching commit information...
-        </p>
     </section>
 
 </main>
@@ -102,9 +99,6 @@ async function loadLatestCommit() {
             .textContent =
             "Last Updated: " + formattedDate;
 
-        document.getElementById("commit-message")
-            .textContent =
-            data.commit.message;
 
     } catch (error) {
 
