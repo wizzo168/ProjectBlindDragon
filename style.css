@@ -125,3 +125,53 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #2d2d2d;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+th {
+    background-color: #2b2b2b;
+    color: #d4af37;
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #444;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #444;
+}
+
+tr:nth-child(even) {
+    background-color: #202020;
+}
+
+tr:hover {
+    background-color: #2d2d2d;
+}
+
+table a {
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+table a:hover {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 25px;
+    color: #888;
+    border-top: 1px solid #333;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 5px 0;
+}
