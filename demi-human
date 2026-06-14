@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demi Human - Project Blind Dragon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Project Blind Dragon</h1>
+    <p>An Elden Ring Tabletop Roleplaying Game</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="introduction.html">Introduction</a>
+    <a href="character-creation.html">Character Creation</a>
+    <a href="races.html">Races</a>
+    <a href="classes.html">Classes</a>
+    <a href="backgrounds.html">Backgrounds</a>
+    <a href="equipment.html">Equipment</a>
+    <a href="customization.html">Customization</a>
+    <a href="adventuring.html">Adventuring</a>
+    <a href="spellcasting.html">Spellcasting</a>
+    <a href="spells.html">Spells</a>
+    <a href="conditions.html">Conditions</a>
+</nav>
+
+<main>
+
+<section class="card">
+
+    <h2>Demi Human</h2>
+
+    <p>
+        Fierce, cunning, and remarkably adaptable, Demi Humans survive through
+        agility and instinct. Though smaller than most races, they make up for
+        their stature with ferocity, stealth, and relentless aggression in battle.
+    </p>
+
+</section>
+
+<section class="card">
+
+    <h2>Race Traits</h2>
+
+    <table>
+        <tr>
+            <th>Trait</th>
+            <th>Details</th>
+        </tr>
+
+        <tr>
+            <td>Ability Score Increase</td>
+            <td>Dexterity +2, Strength +1</td>
+        </tr>
+
+        <tr>
+            <td>Age</td>
+            <td>Reach maturity within a few years and live roughly half as long as humans.</td>
+        </tr>
+
+        <tr>
+            <td>Size</td>
+            <td>Small</td>
+        </tr>
+
+        <tr>
+            <td>Speed</td>
+            <td>30 feet</td>
+        </tr>
+
+        <tr>
+            <td>Darkvision</td>
+            <td>60 feet</td>
+        </tr>
+
+        <tr>
+            <td>Languages</td>
+            <td>Common and Demi-Human</td>
+        </tr>
+
+    </table>
+
+</section>
+
+<section class="card">
+
+    <h2>Darkvision</h2>
+
+    <p>
+        You can see in dim light within 60 feet as if it were bright light,
+        and in darkness as if it were dim light. You cannot discern color in
+        darkness, only shades of gray.
+    </p>
+
+</section>
+
+<section class="card">
+
+    <h2>Rampage</h2>
+
+    <p>
+        When you reduce a creature to 0 hit points with a melee attack on your
+        turn, you can take a bonus action to move up to half your speed and
+        make another melee attack.
+    </p>
+
+</section>
+
+<section class="card">
+
+    <h2>Nimble Escape</h2>
+
+    <p>
+        You can take the Disengage or Hide action as a bonus action on each of
+        your turns.
+    </p>
+
+</section>
+
+<section class="card">
+
+    <h2>Stealthy</h2>
+
+    <p>
+        You gain proficiency in the Stealth skill.
+    </p>
+
+</section>
+
+<section class="card">
+
+    <div style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:15px;">
+
+        <a class="button" href="ancestor.html">
+            ← Previous Race
+        </a>
+
+        <a class="button" href="races.html">
+            Back to Races
+        </a>
+
+        <a class="button" href="living-jar.html">
+            Next Race →
+        </a>
+
+    </div>
+
+</section>
+
+</main>
+
+</body>
+</html>
